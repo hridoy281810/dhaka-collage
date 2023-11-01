@@ -1,12 +1,18 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import DCSC from '../DCSC/DCSC';
+import EventFest from '../EvenFest/EventFest';
+import Gallery from '../Gallery/Gallery';
+import Executive from '../Exicutive/Executive';
 
 const Home = () => {
     return (
         <div>
             <Banner ></Banner>
-    <DCSC></DCSC>
+        <DCSC></DCSC>
+    <EventFest></EventFest>
+    <Gallery></Gallery>
+    <Executive></Executive>
         </div>
     );
 };

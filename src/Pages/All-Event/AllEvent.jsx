@@ -17,7 +17,7 @@ const AllEvent = () => {
         { image: allEvent },
     ]
     return (
-        <div className='page-container my-24 '>
+        <div className='page-container py-24 '>
           <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-2 gap-10 '>
             {
             eventData.map(({image},i)=> (

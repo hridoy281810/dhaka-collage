@@ -9,3 +9,15 @@
     overflow: hidden;
 
   }
+.event-fest-image {
+    position: relative;
+    background-image: url('../../../assets/home/image84.png');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover; 
+    object-position: center; 
+    overflow: hidden;
+  }
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: 0;
+  }
