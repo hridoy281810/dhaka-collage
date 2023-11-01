@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.my-container {
+  @apply lg:w-[85%] w-[90%] mx-auto;
+}
+.page-container {
+  @apply lg:w-[90%] w-[95%] mx-auto;
+}

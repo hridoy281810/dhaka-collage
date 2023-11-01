@@ -1,0 +1,11 @@
+.banner-image {
+    position: relative;
+    background-image: url('../../../assets/nav-banner/image85.png');
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+    object-fit: cover; 
+    object-position: center; 
+    overflow: hidden;
+
+  }
