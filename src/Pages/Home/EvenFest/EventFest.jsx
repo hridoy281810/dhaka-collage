@@ -57,12 +57,9 @@ const EventFest = () => {
                 <SwiperSlide  key={data?.id} >
               <EventFestCard  data={data}/>
             </SwiperSlide>
-            
             )
             )
             }
-     
-            
             </Swiper>
             <Arrow></Arrow>
        </div>

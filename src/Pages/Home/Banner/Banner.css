@@ -1,14 +1,13 @@
 .banner-image {
-    position: relative;
     background-image: url('../../../assets/nav-banner/image85.png');
     background-size: cover;
-    background-position: top center;
-    height: 100vh;
     object-fit: cover; 
-    object-position: center; 
-    overflow: hidden;
-
+    object-position: center;
+    padding-top: 150px; 
+    height: 960px;
+    width: auto;
   }
+
 .event-fest-image {
     position: relative;
     background-image: url('../../../assets/home/image84.png');
@@ -18,6 +17,15 @@
     object-position: center; 
     overflow: hidden;
   }
-  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
-    bottom: 0;
+.need-any-help-image {
+    position: relative;
+    background-image: url('../../../assets/home/Rectangle17.png');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover; 
+    object-position: center; 
+    overflow: hidden;
+    border-radius: 30px;
   }
+
+

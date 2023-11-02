@@ -2,6 +2,7 @@ import React from 'react';
 import SectionTitle from '../../../compents/SectionTitle/SectionTitle';
 import executive from '../../../assets/home/image610.png'
 import ButtonComponent from '../../../compents/ButtonComponent/ButtonComponent';
+import { Link } from 'react-router-dom';
 const Executive = () => {
     const executiveData = [
         { image: executive },
@@ -11,7 +12,8 @@ const Executive = () => {
   
     ]
     return (
-        <div className='my-container'>
+ 
+<div className= 'my-container '>
                   <SectionTitle title={"Executive Committee 2023"} subTitle={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"} subTitle2={"has been the industry's standard dummy text ever since the 1500s, when"} />
                   <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 gap-10 mt-20'>
         {
@@ -39,10 +41,9 @@ const Executive = () => {
               </div>
             ))
         }
-     
       </div>
  <div className='flex justify-center items-center mt-20'>
- <ButtonComponent> All Member</ButtonComponent>
+ <Link to='/committee'><ButtonComponent> All Member</ButtonComponent></Link>
  </div>
         </div>
     );

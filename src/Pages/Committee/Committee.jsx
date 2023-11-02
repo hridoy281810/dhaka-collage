@@ -23,13 +23,12 @@ const Committee = () => {
         { image: executive },
     ]
   return (
-    <div className='page-container py-24'>
+    <div className='page-container pb-24 pt-44'>
       <SectionTitle
         title={"Executive Committee 2023"}
         subTitle={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"}
         subTitle2={"has been the industry's standard dummy text ever since the 1500s, when"}
       />
-
       <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 gap-10 mt-20'>
         {
             executiveData.map(({image},i)=>(
@@ -56,7 +55,6 @@ const Committee = () => {
               </div>
             ))
         }
-     
       </div>
     <div className='flex justify-center mt-20'>
     <ButtonComponent>Load More</ButtonComponent>
